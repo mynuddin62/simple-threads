@@ -2,8 +2,8 @@ package com.faith.theads;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.faith.theads.ThreadUtils.printCurrentTime;
-import static com.faith.theads.ThreadUtils.sleepToNSecond;
+import static com.faith.utility.ThreadUtils.printCurrentTime;
+import static com.faith.utility.ThreadUtils.sleepToNSecond;
 
 public class Watch implements Runnable {
     private boolean running = true;

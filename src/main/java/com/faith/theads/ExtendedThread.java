@@ -1,6 +1,6 @@
 package com.faith.theads;
 
-import static com.faith.theads.ThreadUtils.loopToNToPrintThreadNameInEveryStepWithSleep;
+import static com.faith.utility.ThreadUtils.loopToNToPrintThreadNameInEveryStepWithSleep;
 
 public class ExtendedThread extends Thread {
     private final int loopCounter;

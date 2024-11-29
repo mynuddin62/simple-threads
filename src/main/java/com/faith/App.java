@@ -4,7 +4,7 @@ package com.faith;
 import com.faith.theads.ExtendedThread;
 import com.faith.theads.ThreadRunnable;
 
-import static com.faith.theads.ThreadUtils.loopToNToPrintThreadNameInEveryStepWithSleep;
+import static com.faith.utility.ThreadUtils.loopToNToPrintThreadNameInEveryStepWithSleep;
 
 /**
  * Hello world!
