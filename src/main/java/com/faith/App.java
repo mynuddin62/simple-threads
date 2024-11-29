@@ -47,18 +47,7 @@ public class App {
 //        loopToNToPrintThreadNameInEveryStepWithSleep(loopCounter,sleepInSecond);
         /*Thread Creation By Different Types Start*/
 
-        /*Making Watch*/
-//        Watch watch = new Watch();
-//        Thread watchThread = new Thread(watch, "Watch Thread");
-//        watchThread.start();
-//
-//        try {
-//            Thread.currentThread().sleep(TimeUnit.SECONDS.toMillis(1));
-//            watch.shutdown();
-//        }
-//        catch (InterruptedException ignored) {
-//            //throw new RuntimeException(e);
-//        }
+
 
         /*Thread t = new Thread(() -> {
             try {
