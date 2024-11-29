@@ -67,18 +67,5 @@ public class App {
         t.start();
         t.interrupt();*/
 
-
-       /* SharedObject object = new SharedObject();
-        Thread writerThread = new Thread(() -> {
-            sleepToNSecond(1);
-            object.setFlagTrue();
-        }, "Writer Thread");
-        Thread readerThread = new Thread(() -> object.printFlag(), "Reader Thread");
-
-        writerThread.start();
-        readerThread.start();*/
-
-        System.out.println("Hello");
-
     }
 }
