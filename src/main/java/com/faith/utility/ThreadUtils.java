@@ -16,6 +16,15 @@ public final class ThreadUtils {
         } catch (InterruptedException ignored) {}
     }
 
+    public static void sleepToNMillis(Integer a) {
+        try {
+            Thread.sleep(a);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new AssertionError(e);
+        }
+    }
+
     public static void loopToNToPrintThreadNameInEveryStepWithSleep(int n, int sleepInSecond){
         for (int i = 0; i < n; i++) {
             System.out.println("[" + i + "] - Inside : " + Thread.currentThread().getName());
