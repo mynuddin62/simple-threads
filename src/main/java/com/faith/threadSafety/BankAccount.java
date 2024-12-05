@@ -1,7 +1,7 @@
 package com.faith.threadSafety;
 
 public class BankAccount {
-    private long balance;
+    private volatile long balance;
 
     public BankAccount(long balance) {
         this.balance = balance;
